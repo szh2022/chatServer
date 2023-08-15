@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/zouyu/chatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/zouyu/chatServer/include -I/home/zouyu/chatServer/include/server -I/home/zouyu/chatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/zouyu/chatServer/src/server/chatserver.cpp",
+  "file": "/home/zouyu/chatServer/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/zouyu/chatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/zouyu/chatServer/include -I/home/zouyu/chatServer/include/server -I/home/zouyu/chatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/zouyu/chatServer/src/server/chatservice.cpp",
+  "file": "/home/zouyu/chatServer/src/server/chatservice.cpp"
+},
+{
+  "directory": "/home/zouyu/chatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/zouyu/chatServer/include -I/home/zouyu/chatServer/include/server -I/home/zouyu/chatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/zouyu/chatServer/src/server/main.cpp",
+  "file": "/home/zouyu/chatServer/src/server/main.cpp"
+}
+]

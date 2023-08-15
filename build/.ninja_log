@@ -1,0 +1,12 @@
+# ninja log v5
+10	5482	0	src/server/CMakeFiles/ChatServer.dir/main.cpp.o	d7a1773fa9ac87d6
+1	7223	0	src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o	5ab9b4a15461c0ff
+7223	7859	0	src/server/{PROJECT_SOURCE_DIR}/bin/ChatServer	74dcc33e36a936ec
+3	135	0	build.ninja	c2935fb7d1a6d4dc
+1	859	0	../bin/ChatServer	20301d4f643b42a4
+3	83	0	build.ninja	c2935fb7d1a6d4dc
+1	290348	0	src/server/CMakeFiles/ChatServer.dir/main.cpp.o	1dcbed7761f6707c
+290349	310261	0	src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o	a1e54a7aec55d73
+7	28352	0	src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o	a1e54a7aec55d73
+9	6682	0	src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o	a1e54a7aec55d73
+7	333278	0	src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o	a1e54a7aec55d73
