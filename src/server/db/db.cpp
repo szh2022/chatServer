@@ -2,9 +2,9 @@
 
 #include <muduo/base/Logging.h>
 // 数据库配置信息
-static string server = "47.117.138.229";
-static string user = "zouyu";
-static string password = "123456";
+static string server = "mysql ip地址";
+static string user = "mysql 用户名";
+static string password = "MySQL密码";
 static string dbname = "chat";
 
 MySQL::MySQL() {
