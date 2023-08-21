@@ -14,6 +14,7 @@ using namespace muduo::net;
 #include "groupmodel.hpp"
 #include "json.hpp"
 #include "offlinemessagemodel.hpp"
+#include "redis.hpp"
 #include "usermodel.hpp"
 using json = nlohmann::json;
 
@@ -50,6 +51,9 @@ public:
     // 处理客户端异常退出
     void clientCloseException(const TcpConnectionPtr &conn);
 
+    // 从redis消息队列中获取订阅的消息
+    void handleRedisSubscribeMessage(int userid, string msg);
+
     // 服务器异常终止
     void reset();
 
@@ -72,5 +76,8 @@ private:
 
     // 定义互斥锁，保证_userConnMap的线程安全（多个用户并发登录，而STL里的insert不是线程安全的）
     mutex _connMutex;
+
+    // Redis 操作对象
+    Redis _redis;
 };
 #endif  // CHATSERVICE_H
