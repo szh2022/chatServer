@@ -2,8 +2,8 @@
 
 #include <muduo/base/Logging.h>
 // 数据库配置信息
-static string server = "127.0.0.1";
-static string user = "root";
+static string server = "47.117.138.229";
+static string user = "zouyu";
 static string password = "123456";
 static string dbname = "chat";
 
@@ -24,7 +24,7 @@ bool MySQL::connect() {
         mysql_query(_conn, "set names gbk");
         LOG_INFO << "connect mysql success!";
     } else {
-        LOG_INFO << "connect mysql fail!";
+        LOG_INFO << "connect mysql fail!" << mysql_error(_conn);
     }
     return p;
 }
